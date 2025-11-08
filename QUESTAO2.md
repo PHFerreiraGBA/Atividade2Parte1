@@ -17,7 +17,7 @@ Ao criarmos uma nova variável, digamos, "resultado", que guarde o resultado do 
 como argumento...
 
 ```js
-let resultado = JSON.stringify(pessoa)
+let resultado = JSON.stringify(pessoa);
 ```
 
 ...a variável "resultado" armazenará o objeto contido na variável "pessoa" como um texto JSON:
@@ -30,7 +30,7 @@ Já o método JSON.parse() pega esses textos JSON e converte de volta a um objet
 por alguma razão, você precise converter a variável "resultado" de volta para objeto. Você pode fazer usando o JSON.parse:
 
 ```js
-let reconversao = JSON.parse(resultado)
+let reconversao = JSON.parse(resultado);
 ```
 
 Agora, a nova variável "reconversao" contém o mesmo objeto que a variável "pessoa", convertido de um texto JSON desse objeto.
